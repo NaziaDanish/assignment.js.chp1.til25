@@ -118,6 +118,48 @@ if(hasTicket && seatAvailable){
   console.log('You can enter');
 }
  
+//this is logical AND operator
+var userName = "Nazia";
+var age = 25;
+
+if (userName === "Nazia" && age >= 18) {
+  console.log("Nazia Mansoor is eligible for the course.");
+}
+
+var userName = "Umair";
+var password = "abc123";
+
+if (userName === "Umair" && password === "abc123") {
+  console.log("Umair Ali has successfully logged in.");
+}
+
+//this is VLogical OR (||) Operator
+var city = "Karachi";
+var weather = "Rainy";
+
+if (city === "Lahore" || weather === "Rainy") {
+  console.log("Carry an umbrella just in case.");
+}
+
+var user = "Sehrish";
+var role = "admin";
+
+if (user === "Sehrish" || role === "admin") {
+  console.log("Sehrish Farhan can access the dashboard.");
+}
+
+//this is Logical NOT (!) Operator
+var isLoggedIn = false;
+
+if (!isLoggedIn) {
+  console.log("Please login to continue, Yusra.");
+}
+
+var isAvailable = false;
+
+if (!isAvailable) {
+  console.log("Sorry, Sadaf Abdullah, this product is out of stock.");
+}
 //this is switch statement
 var day = 'Monday';
 switch(day){
